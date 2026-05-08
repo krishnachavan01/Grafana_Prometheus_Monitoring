@@ -3,8 +3,7 @@
 <p>
 <a href="#episode-map"><img src="https://img.shields.io/badge/Episode_Map-374151?style=flat-square" alt="Episode Map"></a>
 <a href="#episode-structure"><img src="https://img.shields.io/badge/Episode_Structure-4b5563?style=flat-square" alt="Episode Structure"></a>
-<a href="#practice-packs"><img src="https://img.shields.io/badge/Practice_Packs-1d4ed8?style=flat-square" alt="Practice Packs"></a>
-<a href="https://learnwithdevopsengineer.beehiiv.com/subscribe"><img src="https://img.shields.io/badge/Newsletter-6b7280?style=flat-square" alt="Newsletter"></a>
+<a href="#newsletter"><img src="https://img.shields.io/badge/Newsletter-6b7280?style=flat-square" alt="Newsletter"></a>
 <a href="#contact-and-1-1-session"><img src="https://img.shields.io/badge/Contact_Us-0284c7?style=flat-square" alt="Contact Us"></a>
 <a href="https://topmate.io/learnwithdevopsengineer"><img src="https://img.shields.io/badge/Topmate-F97316?style=flat-square" alt="Topmate"></a>
 </p>
