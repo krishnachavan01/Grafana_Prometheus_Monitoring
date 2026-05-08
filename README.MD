@@ -1,12 +1,12 @@
 # Monitoring & Alerting Lab
 
 <p>
-<a href="#episode-map">Episode Map</a> |
-<a href="#episode-structure">Episode Structure</a> |
-<a href="#practice-packs">Practice Packs</a> |
-<a href="#newsletter">Newsletter</a> |
-<a href="#contact-and-1-1-session">Contact</a> |
-<a href="https://topmate.io/learnwithdevopsengineer">Topmate</a>
+<a href="#episode-map"><img src="https://img.shields.io/badge/Episode_Map-374151?style=flat-square" alt="Episode Map"></a>
+<a href="#episode-structure"><img src="https://img.shields.io/badge/Episode_Structure-4b5563?style=flat-square" alt="Episode Structure"></a>
+<a href="#practice-packs"><img src="https://img.shields.io/badge/Practice_Packs-1d4ed8?style=flat-square" alt="Practice Packs"></a>
+<a href="#newsletter"><img src="https://img.shields.io/badge/Newsletter-6b7280?style=flat-square" alt="Newsletter"></a>
+<a href="#contact-and-1-1-session"><img src="https://img.shields.io/badge/Contact_Us-0284c7?style=flat-square" alt="Contact Us"></a>
+<a href="https://topmate.io/learnwithdevopsengineer"><img src="https://img.shields.io/badge/Topmate-F97316?style=flat-square" alt="Topmate"></a>
 </p>
 
 Hands-on DevOps learning from zero visibility to full enterprise observability.
@@ -44,10 +44,6 @@ Every episode folder is built to feel complete and easy to follow.
 | 9 | Command center dashboard | [Open episode](episode9-command-center/README.md) | https://youtu.be/LDTdksHk1BQ |
 | 10 | Enterprise monitoring stack | [Open episode](episode10-enterprise-monitoring/README.md) | https://youtu.be/lay2Dy02e7A |
 
-## Practice Packs
-
-- [Basic practice pack](practice-exercises/basic.md) - a quick observability starter lab for beginners.
-- [Advanced practice pack](practice-exercises/advanced.md) - a premium incident-readiness drill for more experienced operators.
 
 ## Contact and 1:1 Session
 
@@ -66,4 +62,3 @@ https://learnwithdevopsengineer.beehiiv.com/subscribe
 - Start with Episode 1 if you want the full journey.
 - Jump to Episode 2 or 3 if you want the monitoring foundation first.
 - Use Episodes 7 to 10 if you want incident response and production-style operations.
-- Use the advanced practice pack if you want a stronger premium-style challenge.
