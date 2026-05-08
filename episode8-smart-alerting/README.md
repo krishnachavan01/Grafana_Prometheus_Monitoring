@@ -21,3 +21,8 @@ The app now emits richer metrics: labeled error counters (`type=warning|critical
 2. Add `service` or `environment` labels and route alerts to the correct team automatically.
 3. Integrate Alertmanager webhooks to page an on-call rotation via PagerDuty or Opsgenie.
 4. Use Grafana heatmaps to visualize the latency histogram and correlate it with error spikes.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

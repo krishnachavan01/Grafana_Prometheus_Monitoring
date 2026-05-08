@@ -17,3 +17,8 @@ The first monitoring step adds Prometheus plus Node Exporter to collect host met
 2. Enable basic alerting rules (e.g., high CPU) even before Alertmanager is introduced in later episodes.
 3. Tighten the `scrape_interval` to see the storage/precision trade‑offs firsthand.
 4. Expose a custom exporter (perhaps a mock HTTP endpoint) and include it as another job to simulate multi‑target scraping.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

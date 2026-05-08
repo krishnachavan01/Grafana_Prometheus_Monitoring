@@ -18,3 +18,8 @@ This episode is intentionally bare‑bones: a single Flask service (`app.py`) th
 2. Create a `/metrics` endpoint and expose a simple counter such as `app_requests_total`.
 3. Extend the Docker Compose file to run two replicas behind a load balancer; observe how hard it is to keep track of failures without shared telemetry.
 4. Draft the questions you would ask stakeholders before investing in a monitoring stack (SLIs, SLOs, alert channels, etc.).
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

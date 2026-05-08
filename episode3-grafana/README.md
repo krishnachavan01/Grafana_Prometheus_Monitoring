@@ -17,3 +17,8 @@ Prometheus data is powerful, but teams need friendly visualizations. This episod
 2. Create dashboard variables (instance, job) so panels can be filtered without editing PromQL.
 3. Add alert annotations to a panel so you can correlate spikes with alerts once Alertmanager is added later.
 4. Configure Grafana to persist dashboards via provisioning files rather than in the built‑in SQLite DB.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

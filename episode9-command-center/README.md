@@ -21,3 +21,8 @@ All of the earlier components (instrumented app, rich alerts, Grafana) are combi
 2. Create a Grafana playlist or kiosk mode view suitable for big screens.
 3. Use provisioning to auto-install alert list panels, runbook links, and incident status boards.
 4. Add uptime-style black-box probes (e.g., `blackbox_exporter`) so external availability shows up next to internal metrics.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

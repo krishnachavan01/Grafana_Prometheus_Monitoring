@@ -19,3 +19,8 @@ Incidents rarely follow the “random blip” pattern. This episode introduces a
 2. Add a dedicated alert (or Slack message) that distinguishes forced outages from organic failures.
 3. Use recording rules to compute error percentages, then alert on both rate and absolute errors.
 4. Experiment with automated remediation (e.g., script removes the flag once SLOs are met) and discuss pros/cons.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

@@ -1,54 +1,55 @@
-## 📺 Monitoring & Alerting – Episode Guide
+# Monitoring & Alerting Lab
 
-The series is structured as a real-world production journey,
-starting from **zero monitoring** to **enterprise-scale observability**.
+Hands-on DevOps learning from zero visibility to full enterprise observability.
 
-### Episode 1 – Incident Without Monitoring (Baseline Failure)
-**Production Down! No Monitoring 😱**  
-https://youtu.be/xHvUH1jagKk  
-_No metrics, no alerts, no visibility — the problem we’re solving._
+This repository is a guided journey through real-world monitoring, alerting, dashboards, outage simulation, and production readiness. Each episode builds on the last, so you can follow the path step by step or jump straight to the part you need.
 
-### Episode 2 – Installing Prometheus & Node Exporter
-**Installing Prometheus + Node Exporter | Give Your System Eyes**  
-https://youtu.be/tP4K2ORg5jQ  
-_Collecting system-level metrics from a real application._
+## What’s Inside
 
-### Episode 3 – Building Real-Time Grafana Dashboards
-**Build Real-Time Grafana Dashboards | Visualize Prometheus Metrics**  
-https://youtu.be/2fDFLc7Yovc  
-_Creating dashboards that actually help during incidents._
+- A full episode series from no monitoring to enterprise-scale observability.
+- Ready-to-run lab folders for each episode.
+- Practice exercises that can be used as workshops or sold as add-on packs.
+- A 1:1 session option for serious DevOps learners who want deeper guidance.
 
-### Episode 4 – Prometheus Alerts → Alertmanager → Slack
-**Prometheus Alerts to Slack | Real-Time Alertmanager Integration**  
-https://youtu.be/2fDFLc7Yovc  
-_Wiring alerts end-to-end for real-time notifications._
+## Quick Start
 
-### Episode 5 – Simulating Real Production Alerts
-**Simulating Real Production Alerts | Prometheus + Slack**  
-https://youtu.be/A3NmOqmNpPY  
-_Testing alert rules the way failures happen in real systems._
+1. Pick an episode from the table below.
+2. Open the episode folder and run the local lab instructions in its README.
+3. Use the practice exercises to turn the episode into a repeatable challenge.
+4. Book a session if you want a deeper hands-on path.
 
-### Episode 6 – Visualizing Alerts in Grafana
-**Visualizing Alerts | Application Health Dashboards**  
-https://youtu.be/hkXAzBzx5gk  
-_Moving beyond raw metrics into health-focused dashboards._
+## Episode Map
 
-### Episode 7 – Production Outage Simulation & Debugging
-**Production Outage Simulation 🔥 Debugging a Real App Failure**  
-https://youtu.be/oMA_9oMkPk0  
-_Debugging using metrics, dashboards, and alerts together._
+| Episode | Focus | Docs | Video |
+| --- | --- | --- | --- |
+| 1 | No monitoring baseline | [README](episode1-no-monitoring/README.md) | https://youtu.be/xHvUH1jagKk |
+| 2 | Prometheus + Node Exporter | [README](episode2-monitoring/README.md) | https://youtu.be/tP4K2ORg5jQ |
+| 3 | Grafana dashboards | [README](episode3-grafana/README.md) | https://youtu.be/2fDFLc7Yovc |
+| 4 | Prometheus alerting basics | [README](episode4-Alerting/README.md) | https://youtu.be/2fDFLc7Yovc |
+| 5 | App failure alerts | [README](episode5-app-failure-alert/README.md) | https://youtu.be/A3NmOqmNpPY |
+| 6 | Visualization and storytelling | [README](episode6-visualization/README.md) | https://youtu.be/hkXAzBzx5gk |
+| 7 | Production outage simulation | [README](episode7-production-outage/README.md) | https://youtu.be/oMA_9oMkPk0 |
+| 8 | Smart alerting and routing | [README](episode8-smart-alerting/README.md) | https://youtu.be/jjXZa0F4qGE |
+| 9 | Command center dashboard | [README](episode9-command-center/README.md) | https://youtu.be/LDTdksHk1BQ |
+| 10 | Enterprise monitoring stack | [README](episode10-enterprise-monitoring/README.md) | https://youtu.be/lay2Dy02e7A |
 
-### Episode 8 – Alert Escalation & On-Call Routing
-**Alert Escalation in Prometheus + Slack 🚨 Dev vs On-Call Routing**  
-https://youtu.be/jjXZa0F4qGE  
-_How alerts should escalate in real teams._
 
-### Episode 9 – Command Center Dashboard
-**Command Center Dashboard | Real-Time Production Monitoring**  
-https://youtu.be/LDTdksHk1BQ  
-_A single pane of glass for live production systems._
+## Who This Is For
 
-### Episode 10 – Enterprise-Scale Monitoring Setup
-**Enterprise-Scale Monitoring Setup | Multi-Service Prometheus + Grafana**  
-https://youtu.be/lay2Dy02e7A  
-_Scaling from one app to an organization-wide monitoring system._
+- DevOps engineers building practical monitoring skills.
+- Learners who want more than theory and need real incident scenarios.
+- Teams that want a structured practice pack for internal training.
+- Anyone serious about production readiness, alerting, dashboards, and CI/CD thinking.
+
+## Contact and 1:1 Session
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+
+https://topmate.io/learnwithdevopsengineer
+
+## Suggested Path
+
+- Start with Episode 1 if you want the full journey.
+- Jump to Episode 2 or 3 if you want the monitoring foundation first.
+- Use Episodes 7 to 10 if you want incident response and production-style operations.
+- Use the advanced practice pack if you want a stronger premium-style challenge.

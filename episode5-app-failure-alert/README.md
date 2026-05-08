@@ -20,3 +20,8 @@ We now instrument the Flask app with Prometheus client libraries so application 
 2. Add a latency histogram to the Flask app and graph P95/P99 response times in Grafana.
 3. Configure Alertmanager to notify different channels based on severity or service.
 4. Container harden the app (gunicorn, health probes) to simulate production readiness.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

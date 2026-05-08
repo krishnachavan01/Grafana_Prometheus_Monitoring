@@ -23,3 +23,8 @@ The final episode assembles a realistic multi-tier system: a web frontend, a bac
 3. Secure secrets by replacing inline Slack webhooks with environment variables or a secrets manager.
 4. Simulate a database connection storm and tune the `DatabaseHighConnections` alert to avoid false positives.
 5. Document deployment/rollback steps plus a verification checklist for the entire stack.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

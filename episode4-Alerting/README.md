@@ -19,3 +19,8 @@ Grafana visualizations are reactive; this episode adds proactive alerting with P
 2. Add a second route in `alertmanager.yml` that would email the on-call engineer for `severity=critical`.
 3. Use Prometheus’ `/-/reload` endpoint (or container restart) to hot‑reload alerting rule changes.
 4. Simulate noisy alerts and practice silencing them via Alertmanager’s UI.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer

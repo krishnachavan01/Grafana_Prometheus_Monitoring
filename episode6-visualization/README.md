@@ -19,3 +19,8 @@ With instrumentation and alerts in place, this episode focuses on visualization 
 2. Use Grafana’s `transformations` to aggregate per‑instance metrics into fleet views.
 3. Add dashboard annotations that are created automatically when alerts fire.
 4. Document dashboard links or drill‑downs to guide responders during outages.
+
+## 1:1 Hands-On Incident Support
+
+If you’re serious about DevOps and want hands-on incident practice, CI/CD practice packs, or a 1:1 session, book here:
+https://topmate.io/learnwithdevopsengineer
