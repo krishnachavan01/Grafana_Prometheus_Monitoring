@@ -356,31 +356,6 @@ This alert monitors critical errors with a slightly different philosophy. Any cr
 
 **Exercise 5 — Alert Tuning:** Deliberately adjust the alert rule thresholds and `for:` durations. Observe how this affects the number of alerts received and the time-to-alert. Document the tradeoff between sensitivity (catching real problems fast) and specificity (avoiding false positives).
 
----
-
-## 💼 SRE Interview Q&A
-
-**Q1: What information belongs on a "single pane of glass" for SREs, and how do you prevent it from becoming cluttered?**
-
-A command center dashboard should surface the four golden signals — latency, traffic, errors, and saturation — alongside active alert status and incident timelines. The key to preventing clutter is discipline: only display metrics that require action or provide essential context during an incident. Less-critical panels should exist in linked detail dashboards that engineers can drill into rather than on the main wallboard. A useful mental model is to ask: if someone glanced at this screen for 5 seconds during an incident, would they know whether the system is healthy or not?
-
-**Q2: How can you measure whether dashboards or runbooks actually improve MTTR?**
-
-Instrument your incident response process. Record the time from alert firing to first acknowledgment, from acknowledgment to diagnosis, and from diagnosis to resolution. Track these numbers over time and compare periods before and after introducing the command center. Survey on-call engineers after incidents to ask whether the dashboard helped them diagnose faster. If MTTR is improving and post-incident surveys show reduced tool-switching, the investment in dashboards is paying off.
-
-**Q3: Discuss strategies for sharing dashboards across teams while maintaining consistent standards.**
-
-Establish a dashboard style guide that defines standard color coding (e.g., green for healthy, yellow for warning, red for critical), consistent time range defaults, and naming conventions. Use Grafana's library panels feature to create reusable panel templates that teams pull from rather than build from scratch. Implement a review process where dashboard changes are submitted as pull requests alongside the infrastructure-as-code files. Use Grafana provisioning to ensure all environments start from the same validated baseline.
-
-**Q4: When would you invest in synthetic monitoring alongside internal metrics?**
-
-Synthetic monitoring — external probes that simulate user behavior — is essential when your internal metrics cannot capture the full user experience. DNS failures, CDN misconfigurations, SSL certificate expiry, and regional routing issues might not register as errors inside your data center but will cause real users to experience outages. Adding synthetic probes to your command center gives you the outside-in perspective that validates whether users can actually reach your service, independent of what your internal health checks report.
-
-**Q5: How do you handle secrets (API keys, webhooks) when publishing dashboards or kiosks to communal screens?**
-
-Never embed sensitive credentials in dashboard JSON, configuration files committed to public repositories, or kiosk URLs that might be screen-recorded. Store webhook URLs and API tokens in a secrets manager such as HashiCorp Vault or AWS SSM Parameter Store, and reference them as environment variables in your container configuration. Use read-only service accounts for Grafana data source connections. When sharing dashboard snapshots publicly, ensure they contain only static data and no live data source credentials.
-
----
 
 ## 📚 Series Overview
 
@@ -413,18 +388,3 @@ docker compose down -v
 
 ---
 
-## 🤝 1:1 Hands-On Support
-
-Want guided incident practice, CI/CD practice packs, or a personal 1:1 coaching session?
-
-👉 **Book here:** https://topmate.io/learnwithdevopsengineer
-
----
-
-<div align="center">
-
-⭐ **If this project helped you learn, please give it a star!** ⭐
-
-Made with ❤️ for DevOps engineers who learn by doing.
-
-</div>
